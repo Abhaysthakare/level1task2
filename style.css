@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(38, 37, 37);
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color:rgb(57, 35, 35);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li
+{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover
+{
+    font-size: 1.02rem ;
+    color:rgb(147, 173, 196);
+}
+h1{
+    margin: 5% 5%;
+    color: aqua;
+}
+h2{
+    margin: 5% 5%;
+    text-decoration: solid;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.firstSection > div
+{
+    width: 40%;
+}
+.rightSection img
+{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    margin: 0 6%;
+}
+#under
+{
+    margin: 0 8%;
+}
+form {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#colorChangeButton{
+    background-color: aqua;
+}
